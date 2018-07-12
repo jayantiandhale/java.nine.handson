@@ -1,5 +1,5 @@
 # Java9-Http2Client
-Sample client using http2 client
+Sample client using http2 client.
 Unlike HttpURLConnection, HTTP Client provides synchronous and asynchronous request mechanisms.
 The API consists of 3 core classes:
 1. HttpRequest – represents the request to be sent via the HttpClient
