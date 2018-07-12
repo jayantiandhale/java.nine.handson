@@ -7,12 +7,12 @@ The API consists of 3 core classes:
 3. HttpResponse – represents the result of an HttpRequest call
 
 Why?
-Java provided only the HttpURLConnection API – which is low-level and isn’t known for being feature-rich and user-friendly.Therefore, some widely used third-party libraries were commonly used – such as Apache HttpClient, Jetty, and Spring’s RestTemplate.
-Improvements:
-    	Header Compression. HTTP/2 uses HPACK compression, which reduces overhead.
-	Single Connection to the server, reduces the number of round trips needed to set up multiple TCP connections.
-	Multiplexing. Multiple requests are allowed at the same time, on the same connection.
-	Server Push. Additional future needed resources can be sent to a client.
+- Java provided only the HttpURLConnection API – which is low-level and isn’t known for being feature-rich and user-friendly.Therefore, some widely used third-party libraries were commonly used – such as Apache HttpClient, Jetty, and Spring’s RestTemplate.
+- Improvements:
+    	-> Header Compression. HTTP/2 uses HPACK compression, which reduces overhead.
+	-> Single Connection to the server, reduces the number of round trips needed to set up multiple TCP connections.
+	-> Multiplexing. Multiple requests are allowed at the same time, on the same connection.
+	-> Server Push. Additional future needed resources can be sent to a client.
 	Binary format. More compact.
 
 
