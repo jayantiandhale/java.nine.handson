@@ -21,3 +21,6 @@ Factory Methods for creating unmodifiable collections
 Ref: https://docs.oracle.com/javase/9/core/creating-immutable-lists-sets-and-maps.htm#JSCOR-GUID-930A5334-9413-4E87-A1D7-6FF4E9E421B2
 
 Why?
+- clean code
+- immutability is guaranteed
+- space efficient
